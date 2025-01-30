@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang =en>
 	<head>
 	 <title>
 		My First Webpage
 	 </title>
+	 <style>
+		table, th, td{
+		border: 1px solid black;
+		}
+	 </style>
 	</head>
 	
 	<body>
-		<h1>My page </h1>
-		<p>Hello world.</p>
+		<header>
+			<h1>My page </h1>
+			<p>Hello world.</p>
+		</header>
+		
 		
 		<h2>Hobbies </h2>
 		<p>I have some hobbies.</p>
@@ -17,11 +25,54 @@
 			<li> Playing <a href= "Funinfo/Board_games.html">board games </a> </li>
 			<li> Playing video games </li>
 		</ol>
-		<h2>My classes.</ph2>
-		
+		<h2>My classes.</h2>
+		<p>Here are my classes</p>
+		<table
+			<thead>
+				<tr>
+					<th>Class number</th>
+					<th>Class name</th>
+					<th>Format</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>CSC 105 </td>
+					<td>Web Development </td>
+					<td>In person </td>
+				</tr>
+				<tr>
+					<td>CSC 305</td>
+					<td>Cross-Cultural Web Design</td>
+					<td>Hybrid</td>
+				</tr>
+				<tr>
+					<td>IT 242</td>
+					<td>Database management systems</td>
+					<td>Online</td>
+			</tr>
+			</tbody>
+		</table>
+		<form>
+			<label for = 'fname'> First name: </label>
+			<input id = 'fname' type='text' name = 'firstname'>
+			<br>
+			<label for = 'lname'> Last name: </label>
+			<input id = 'lname' type='text' name = 'lastname'>
+			<br>
+			<label for = 'male'> Male: </label>
+			<input id = 'male' type='radio' name = 'gender' value = 'male'>
+			<label for = 'female'> Female: </label>
+			<input id = 'female' type='radio' name = 'gender' value = 'female'>
+			<label for = 'other'> Other: </label>
+			<input id = 'other' type='radio' name = 'gender' value = 'other'>
+			
+			<br>
+			<input type='submit'>
+		</form>
 		<h3>CSC 105 </h3>
 		<h3>CSC 305 </h3>
-		
+		<!-- Add content here -->
 		
 	</body>
 </html>
