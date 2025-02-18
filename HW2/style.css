@@ -1,0 +1,35 @@
+* {
+	font-family: verdana;
+	background-color: lightgray;
+}
+table {
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: black;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table-section {
+	background-color: lightgoldenrodyellow;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	color: black;
+	font-size: 15px;
+}
+.centered {
+	text-align: center;
+	text-decoration-line: underline;
+}
+#name {
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+	font-size: 50px;
+}
