@@ -54,6 +54,7 @@ a:hover {
 }
 
 .flex-container > div {
+  background-color: lightgoldenrodyellow;
   border: 1px;
   border-style: solid;
   border-color: black;
