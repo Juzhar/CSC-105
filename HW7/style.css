@@ -1,0 +1,26 @@
+.tasklist{
+	
+}
+
+.listitem{
+	padding: 10px;
+	
+}
+.completed{
+	color: #4CAF50;
+	text-decoration: line-through;
+}
+
+.listitem{
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+.button{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+h1{
+	margin-top: 40px;
+	
+}
